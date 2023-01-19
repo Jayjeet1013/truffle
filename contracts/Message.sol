@@ -4,7 +4,7 @@
 pragma solidity ^0.8.17;
 
 contract Message{
-  string message;
+  string  public message;
 
   function setMessage(string memory _message) public returns(string memory){
     return message=_message;
